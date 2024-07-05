@@ -2,42 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Survista Markets News</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Survista Markets News</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="container">
-        <article>
-            <h2>Neuster Beitrag</h2>
-            <p>Kurzer Text über den neusten Beitrag. <img src="image1.jpg" alt="Beispielbild"></p>
-        </article>
-        <article>
-            <h2>Vorheriger Beitrag</h2>
-            <p>Kurzer Text über einen vorherigen Beitrag. <img src="image2.jpg" alt="Beispielbild"></p>
-        </article>
-    </main>
-    <footer>
-        <div class="container">
-            <p>© 2024 Survista Markets News. Alle Rechte vorbehalten.</p>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Survista Markets News</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
             </ul>
         </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8">
+                <article>
+                    <h2>Neuster Beitrag</h2>
+                    <p>Kurzer Text über den neusten Beitrag. <img src="image1.jpg" alt="Beispielbild" class="img-fluid"></p>
+                </article>
+                <article>
+                    <h2>Vorheriger Beitrag</h2>
+                    <p>Kurzer Text über einen vorherigen Beitrag. <img src="image2.jpg" alt="Beispielbild" class="img-fluid"></p>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <aside>
+                    <h3>Über Uns</h3>
+                    <p>Informationen über die Website und das Team.</p>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Survista Markets News. Alle Rechte vorbehalten.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white">Facebook</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Twitter</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">LinkedIn</a></li>
+        </ul>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
