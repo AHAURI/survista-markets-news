@@ -1,10 +1,15 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
 }
 
 header {
@@ -25,20 +30,20 @@ nav ul li {
 }
 
 main {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 1em;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 2em 0;
 }
 
 article {
+    background: #fff;
     margin-bottom: 2em;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 article img {
     max-width: 100%;
     height: auto;
+    margin-top: 1em;
 }
 
 footer {
